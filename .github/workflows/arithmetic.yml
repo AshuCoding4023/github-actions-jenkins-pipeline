@@ -1,0 +1,20 @@
+name: Arithmetic Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  calculator:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Addition
+        run: |
+          a=10
+          b=20
+          sum=$((a+b))
+          echo "Sum = $sum"
