@@ -1,4 +1,4 @@
-name: Arithmetic Pipeline
+name: Multiplication Pipeline
 
 on:
   push:
