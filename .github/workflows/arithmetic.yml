@@ -12,9 +12,9 @@ jobs:
 
     steps:
 
-      - name: Addition
+      - name: Multiplication
         run: |
-          a=60
+          a=15
           b=20
-          sum=$((a+b))
-          echo "Sum = $sum"
+          mul=$((a*b))
+          echo "Mul = $mul"
