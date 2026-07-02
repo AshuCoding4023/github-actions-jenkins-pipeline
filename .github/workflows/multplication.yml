@@ -14,7 +14,7 @@ jobs:
 
       - name: Multiplication
         run: |
-          a=15
+          a=20
           b=20
           mul=$((a*b))
           echo "Mul = $mul"
